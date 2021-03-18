@@ -3,6 +3,7 @@
 # file.write("HELLO")
 # file.close()
 file = open("hello.txt", "a")
+# file.readlines()
 file.writelines([
 "Sekarang kita belajar menulis dengan menggunakan Python\n", 
 "Menulis konten file dengan mode a (append)\n"
